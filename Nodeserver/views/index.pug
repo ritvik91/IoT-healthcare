@@ -1,0 +1,102 @@
+//-
+        Index.pug
+
+        This is the home page for this project. It is configured to auto-connect
+        to the server's websocket and handle any events fired from the server end.
+//-
+
+extends base
+
+//- The visual portion of the page
+block content
+        div(class='panel')
+                div.panel-body
+                        h1 IoT Hospital
+                        p IoT based solution for patient, nurses and doctors
+                        
+                        div(id='debugLog')
+                                div(id='debugLogList', class='well')
+                        
+
+//- The scripts needed by this page
+block scripts
+        //script(src='/js/simpleheat1.js')
+
+        script(type='text/javascript').
+                $(() => {
+                        var socket = io();
+                        socket.on('countUpdated', function(data){
+                                console.log("bno="+data.bno+" op="+data.op);
+                                if(data.bno==1)
+                                {
+                                    p1_v = p1_v+data.op;
+                                    console.log("p1_v = "+p1_v);
+                                }
+                                else if(data.bno==2)
+                                {
+                                    p2_v = p2_v+data.op;
+                                    console.log("p2_v = "+p2_v);
+                                }
+                                else if(data.bno==3)
+                                {
+                                    p3_v = p3_v+data.op;
+                                    console.log("p3_v = "+p3_v);
+                                }
+                                else
+                                {
+                                    p4_v = p4_v+data.op;
+                                    console.log("p4_v = "+p4_v);
+                                }
+                                redraw();
+                        });
+
+                        // Handle socket events here
+                        //--------------------------
+                        // Adds to the debug list
+                        socket.on('debug', data => {
+                                var time = new Date();
+                                $('#debugLogList').append('<div>' + time + ': ' + data.type + ' | ' + data.msg + '</div>');
+                        });
+
+                         socket.on('grid', data => {
+                                var time = new Date();
+                                $('#grid').append('<div>' + time + ': ' + data.type + ' | ' + data.msg + '</div>');
+                        });
+                        //--------------------------
+                });
+
+        script(type='text/javascript').
+                var p1_x, p1_y, p2_x, p2_y, p3_x, p3_y, p4_x, p4_y, heat, width, height, c, minOpacity;
+                var p1_v=1, p2_v=1, p3_v=1, p4_v=1;
+                $(() => {
+                        // Handle any canvas code here
+                        //----------------------------
+                        var canv = $('#grid');
+                        //----------------------------
+                        c = document.getElementById("grid");
+                        width = c.width;
+                        height = c.height;
+                        minOpacity=0.05;
+                        heat = simpleheat('grid');
+
+                        p1_x = width/4;
+                        p1_y = height/4;
+                        p2_x = (3*width)/4;
+                        p2_y = height/4;
+                        p3_x = width/4;
+                        p3_y = (3*height)/4;
+                        p4_x = (3*width)/4;
+                        p4_y = (3*height)/4;
+                        var dat1 = [[p1_x,p1_y, p1_v], [p2_x,p2_y, p2_v], [p3_x,p3_y, p3_v], [p4_x,p4_y, p4_v]];
+                        heat.max(20);
+                        heat.data(dat1);
+                        heat.radius(30,5);
+                        heat.draw(minOpacity);
+                });
+                function redraw()
+                {
+                    heat.clear();
+                    var dat1 = [[p1_x,p1_y, p1_v], [p2_x,p2_y, p2_v], [p3_x,p3_y, p3_v], [p4_x,p4_y, p4_v]];
+                    heat.data(dat1);
+                    heat.draw(minOpacity);
+                }

@@ -1,0 +1,79 @@
+//-
+        Index.pug
+
+        This is the home page for this project. It is configured to auto-connect
+        to the server's websocket and handle any events fired from the server end.
+//-
+
+extends base
+
+//- The visual portion of the page
+block content
+        div(class='panel panel-default')
+                div.panel-body
+                        h1 MQTT Tracker
+                        p Simple Website for tracking population 'heat maps' using MQTT
+
+                        // Implement the graphics portion in the canvas supplied below
+                        div.well
+                                canvas(id='grid')
+
+        div(class='panel')
+                div.panel-body
+                        button(class='btn btn-primary', type='button', data-toggle='collapse', data-target='#debugLog', aria-expanded='false', aria-controls='debugLog') Show Debug Log
+                        div(id='debugLog', class='collapse')
+                                div(id='debugLogList', class='well')
+                        button(id='push' onClick='add()') Add
+                        button(id='pull' onClick='sub()') Sub
+
+//- The scripts needed by this page
+block scripts
+
+ <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+
+      // Load the Visualization API and the corechart package.
+      google.charts.load('current', {'packages':['corechart']});
+
+      // Set a callback to run when the Google Visualization API is loaded.
+      google.charts.setOnLoadCallback(drawChart);
+
+      // Callback that creates and populates a data table,
+      // instantiates the pie chart, passes in the data and
+      // draws it.
+      function drawChart() {
+
+        // Create the data table.
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Topping');
+        data.addColumn('number', 'Slices');
+        data.addRows([
+          ['Mushrooms', 3],
+          ['Onions', 1],
+          ['Olives', 1],
+          ['Zucchini', 1],
+          ['Pepperoni', 2]
+        ]);
+
+        // Set chart options
+        var options = {'title':'How Much Pizza I Ate Last Night',
+                       'width':400,
+                       'height':300};
+
+        // Instantiate and draw our chart, passing in some options.
+        var chart = new google.visualization.PieChart(document.getElementById('grid'));
+        chart.draw(data, options);
+      }
+    </script>
+        
+                        // Handle socket events here
+                        //--------------------------
+                        // Adds to the debug list
+                        socket.on('debug', data => {
+                                var time = new Date();
+                                $('#debugLogList').append('<div>' + time + ': ' + data.type + ' | ' + data.msg + '</div>');
+                        });
+                        //--------------------------
+                });
+
+       
