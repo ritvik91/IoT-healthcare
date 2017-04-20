@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/GrayShadow/Documents/UFL/mC/Project/Responder/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/10.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="75575883f0348fc5d2be85f23bd10b050095cf17">
+        <dex dex="/Users/GrayShadow/Documents/UFL/mC/Project/Responder/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-messaging-10.2.0_7b4bdf6ea4e41f7bb54a34628731498ce5341e61.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/GrayShadow/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.0/support-annotations-25.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dd84903d2e1af25a6081ef9038ad863cb14ca3a0">
+        <dex dex="/Users/GrayShadow/Documents/UFL/mC/Project/Responder/app/build/intermediates/pre-dexed/debug/support-annotations-25.3.0_5b25ae9792f67351886864535e465eb3a4c84400.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/GrayShadow/Documents/UFL/mC/Project/Responder/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="93c1199fcb0a34b980e6fff8350daff62e696ec2">
+        <dex dex="/Users/GrayShadow/Documents/UFL/mC/Project/Responder/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.3.0_aed5862b11fb0332bed56b4ec9259eef92878431.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/GrayShadow/Documents/UFL/mC/Project/Responder/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/GrayShadow/Documents/UFL/mC/Project/Responder/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.3.0_6a9fd902f84917737bd2f7a89ec161e5e019011f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/GrayShadow/Documents/UFL/mC/Project/Responder/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ce9112e08a027c8620ae693983e38cdbb9f6371b">
+        <dex dex="/Users/GrayShadow/Documents/UFL/mC/Project/Responder/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-impl-10.2.0_308df0c741d1373583d740c7a00a128d1711c241.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/GrayShadow/Documents/UFL/mC/Project/Responder/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d6a04527c17597019dad82777c5094a3d60d1c33">
+        <dex dex="/Users/GrayShadow/Documents/UFL/mC/Project/Responder/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.3.0_9ee0532368695be4481f5619d549100f369034f3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/GrayShadow/Documents/UFL/mC/Project/Responder/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a61e7010aa7be5da53cd1bc5279630510c9a4912">
+        <dex dex="/Users/GrayShadow/Documents/UFL/mC/Project/Responder/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-10.2.0_08568148823c88930639b5465e8bd1cf7ca09c2f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/GrayShadow/Documents/UFL/mC/Project/Responder/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="70f23cb87278f89aa51e6f57e8f0fd5266572d95">
+        <dex dex="/Users/GrayShadow/Documents/UFL/mC/Project/Responder/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.3.0_b08c4716bea5fa677f9cd0104eca7904a9f2fbe4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/GrayShadow/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.2.2/d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b/jackson-core-2.2.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b">
+        <dex dex="/Users/GrayShadow/Documents/UFL/mC/Project/Responder/app/build/intermediates/pre-dexed/debug/jackson-core-2.2.2_f9830728800cea7bb4fc53cf103c17b910f23152.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/GrayShadow/.gradle/caches/modules-2/files-2.1/org.mongodb/mongo-java-driver/3.0.3/2861ec441c95b6cff99ad6761c01776cf708817a/mongo-java-driver-3.0.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2861ec441c95b6cff99ad6761c01776cf708817a">
+        <dex dex="/Users/GrayShadow/Documents/UFL/mC/Project/Responder/app/build/intermediates/pre-dexed/debug/mongo-java-driver-3.0.3_7a66095a0443456321f7a55efe44d3ea6931ab87.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/GrayShadow/Documents/UFL/mC/Project/Responder/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3d6951cb416ebf8c66a32b9480808ca247b68344">
+        <dex dex="/Users/GrayShadow/Documents/UFL/mC/Project/Responder/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-iid-10.2.0_0ba015249c10e0e691e8cda109b0a1d0ee7897c4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/GrayShadow/Documents/UFL/mC/Project/Responder/app/build/intermediates/exploded-aar/com.jjoe64/graphview/4.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="987adec819c9a98faf215814f41195da48fc724e">
+        <dex dex="/Users/GrayShadow/Documents/UFL/mC/Project/Responder/app/build/intermediates/pre-dexed/debug/com.jjoe64-graphview-4.2.1_f1ac8abf84f8cca32bf400e8b55412b9afe65bfb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/GrayShadow/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.2.2/285cb9c666f0f0f3dd8a1be04e1f457eb7b15113/jackson-annotations-2.2.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="285cb9c666f0f0f3dd8a1be04e1f457eb7b15113">
+        <dex dex="/Users/GrayShadow/Documents/UFL/mC/Project/Responder/app/build/intermediates/pre-dexed/debug/jackson-annotations-2.2.2_0cafc3126f9caae9cfa565ea2535bd562ca4c098.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/GrayShadow/Documents/UFL/mC/Project/Responder/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="93c10d68ab5ea070f15782ae6d3a28d1f1d8f45e">
+        <dex dex="/Users/GrayShadow/Documents/UFL/mC/Project/Responder/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.3.0_90b8418c9d04d745bebda0f7951463302571959e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/GrayShadow/Documents/UFL/mC/Project/Responder/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1ac56e5801e986583cbe27f2cce57f626cc7ff93">
+        <dex dex="/Users/GrayShadow/Documents/UFL/mC/Project/Responder/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-10.2.0_7bd6bf7eff3984c181e6a2cd358df608586b22a0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/GrayShadow/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.2.2/3c8f6018eaa72d43b261181e801e6f8676c16ef6/jackson-databind-2.2.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3c8f6018eaa72d43b261181e801e6f8676c16ef6">
+        <dex dex="/Users/GrayShadow/Documents/UFL/mC/Project/Responder/app/build/intermediates/pre-dexed/debug/jackson-databind-2.2.2_e1322c4a060a9e48d03a567c92bb2e49766b17c2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/GrayShadow/Documents/UFL/mC/Project/Responder/app/build/intermediates/exploded-aar/com.estimote/sdk/0.11.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8ff85bb08facfbaa19d529be27738fd354baaab7">
+        <dex dex="/Users/GrayShadow/Documents/UFL/mC/Project/Responder/app/build/intermediates/pre-dexed/debug/com.estimote-sdk-0.11.1_bd8331920e1d862d249c728762b4b7a49e153c49.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/GrayShadow/Documents/UFL/mC/Project/Responder/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0d5cbbbfe040201c7569478b70a13b58fd11aab4">
+        <dex dex="/Users/GrayShadow/Documents/UFL/mC/Project/Responder/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-common-10.2.0_2d8dbf64c001e9272bb95ea0ff9ae7bb66962b3c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/GrayShadow/Documents/UFL/mC/Project/Responder/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bd75f9f0296fe220da6d0ad961831b04541c4452">
+        <dex dex="/Users/GrayShadow/Documents/UFL/mC/Project/Responder/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-10.2.0_947b0b098761cfb0113b3271b8346983db06419e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/GrayShadow/Documents/UFL/mC/Project/Responder/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b746ef0fd46acb5aaf3d9ab9a4cec22c28d3211">
+        <dex dex="/Users/GrayShadow/Documents/UFL/mC/Project/Responder/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.3.0_d783a2f940ed568c88bddab633cda4fb9a16dca0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/GrayShadow/.gradle/caches/modules-2/files-2.1/com.firebase/firebase-client-jvm/2.5.2/91731b8f5868a3e8a8a773f29b8d06b5c358f5bb/firebase-client-jvm-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="91731b8f5868a3e8a8a773f29b8d06b5c358f5bb">
+        <dex dex="/Users/GrayShadow/Documents/UFL/mC/Project/Responder/app/build/intermediates/pre-dexed/debug/firebase-client-jvm-2.5.2_92560d56e5a33b3da828e1890c336d30abd51343.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/GrayShadow/Documents/UFL/mC/Project/Responder/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5cc5ef8347a6bafa14556cbd35230aa9b3431bb0">
+        <dex dex="/Users/GrayShadow/Documents/UFL/mC/Project/Responder/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.3.0_cd15fc7eee14a5c528532b16a7f65639b06ceb90.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/GrayShadow/Documents/UFL/mC/Project/Responder/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="518768f3200963fbfec652f498da2c9d39245234">
+        <dex dex="/Users/GrayShadow/Documents/UFL/mC/Project/Responder/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.3.0_d97c35085af93180274a23714a3088fb7cf70b37.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/GrayShadow/Documents/UFL/mC/Project/Responder/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="425c7b17887e5c3f8cbdf67ba171bc246f29b42c">
+        <dex dex="/Users/GrayShadow/Documents/UFL/mC/Project/Responder/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.3.0_f118e976cc21dcf0d9b01d51955a4ab694144cc0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/GrayShadow/.gradle/caches/modules-2/files-2.1/com.firebase/tubesock/0.0.12/6ec0bbd3e161a73ed672284b587fd32309a86d7a/tubesock-0.0.12.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ec0bbd3e161a73ed672284b587fd32309a86d7a">
+        <dex dex="/Users/GrayShadow/Documents/UFL/mC/Project/Responder/app/build/intermediates/pre-dexed/debug/tubesock-0.0.12_e4eeafcfbd5568ae683309d5ea917bd91d3e097c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/GrayShadow/.gradle/caches/modules-2/files-2.1/com.firebase/firebase-client-android/2.5.2/f19f10d6276aa0b380e2d05d2ab3272d693a5433/firebase-client-android-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f19f10d6276aa0b380e2d05d2ab3272d693a5433">
+        <dex dex="/Users/GrayShadow/Documents/UFL/mC/Project/Responder/app/build/intermediates/pre-dexed/debug/firebase-client-android-2.5.2_d51c6e7151124dede1993515a92e32b6bbad677a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/GrayShadow/Documents/UFL/mC/Project/Responder/app/build/intermediates/exploded-aar/com.android.volley/volley/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="/Users/GrayShadow/Documents/UFL/mC/Project/Responder/app/build/intermediates/pre-dexed/debug/com.android.volley-volley-1.0.0_bb6e7d44348c9c19633fe66ac8993a19e4d15d2f.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Responder</string>
+    <string name="period_prompt">Choose a period</string>
+    <string name="url_patient_info_nurse">http://10.136.30.10:8090/responder/nurse</string>;
+    <string name="url_patient_info_doc">http://10.136.33.169:8090/responder/doctor</string>;
+    <string-array name="period_array">
+        <item>morning</item>
+        <item>afternoon</item>
+        <item>evening</item>
+        <item>night</item>
+    </string-array>
+</resources>

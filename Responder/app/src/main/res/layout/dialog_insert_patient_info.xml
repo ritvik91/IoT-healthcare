@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerPeriod"
+        android:entries="@array/period_array"
+        android:prompt="@string/period_prompt"
+        android:layout_weight="0.04" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Patient ID"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/etPid" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Doctor ID"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/etDid" />
+
+    <MultiAutoCompleteTextView
+        android:hint="Medicines' name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etMed" />
+
+</LinearLayout>
